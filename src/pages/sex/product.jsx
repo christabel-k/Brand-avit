@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import "./Product.css";
+import "./product.css";
 
 const categoryProducts = {
   men: ["mens-shirts", "mens-shoes", "mens-watches"],
