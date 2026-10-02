@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./fitPage.css";
+import "./FitPage.css";
 import {
   convertHeightToCm,
   validateMeasurements,

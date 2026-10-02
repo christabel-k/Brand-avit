@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "./Product.css";
 
