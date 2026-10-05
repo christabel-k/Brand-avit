@@ -33,8 +33,9 @@
   margin-bottom: 16px;
   color: #98764b;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 700 ; 
   letter-spacing: 3px;
+  
 }
 
 .fit-selection .fit-header h1 {
