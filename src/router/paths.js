@@ -10,4 +10,10 @@ export const PATHS = {
   MEN: "/men",
   WOMEN:"/women",
   KIDS: "/kids",
+
+
+  //dashboard
+  DASHBOARD:{
+    HOME:'/'
+  }
 };
