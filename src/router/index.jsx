@@ -11,6 +11,8 @@ import PaymentPage from "../pages/payment";
 import SearchPage from "../pages/search";
 import Products from "../pages/sex/product";
 import MensFitPage from "../pages/menFit";
+import DashboardLayout from "../layouts/DashboardLayout";
+import DashboardHome from "../pages/dashboard/home";
 
 
 
@@ -65,4 +67,18 @@ export const router = createBrowserRouter([
       },
     ],
   },
+
+  
+//dashboard Routes
+  {
+    id:"dashboard",
+    element:<DashboardLayout/>,
+    children:[
+      {
+        path:PATHS.DASHBOARD.HOME,
+        element:<DashboardHome />
+      },
+
+    ]
+  }
 ]);
